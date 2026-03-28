@@ -20,6 +20,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="TopMargin" type="Control" parent="VBoxContainer" unique_id=655448657]
+visible = false
 layout_mode = 2
 size_flags_vertical = 3
 
@@ -38,6 +39,7 @@ theme_override_constants/h_separation = 0
 theme_override_constants/v_separation = 0
 
 [node name="BottomMargin" type="Control" parent="VBoxContainer" unique_id=1013135203]
+visible = false
 layout_mode = 2
 size_flags_vertical = 3
 

@@ -13,7 +13,7 @@ func _ready():
 		# allow mouse input to pass through buttons, enabling touch scroll
 		bird_button.mouse_filter = Control.MOUSE_FILTER_PASS
 		bird_button.stretch_mode = TextureButton.STRETCH_SCALE
-		bird_button.custom_minimum_size = Vector2(icon_size.x/2,icon_size.y/6)
+		bird_button.custom_minimum_size = Vector2(icon_size.x/2,icon_size.y/5)
 		bird_button.ignore_texture_size = true
 		bird_button.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 		bird_button.texture_normal = load("res://Birdcalls/" + bird_name + "/icon.webp")
