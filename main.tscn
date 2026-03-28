@@ -23,8 +23,19 @@ grow_vertical = 2
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="BirdButtonContainer" type="VBoxContainer" parent="VBoxContainer" unique_id=1343526020]
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer" unique_id=1316999294]
 layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 75.0
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="BirdButtonContainer" type="HFlowContainer" parent="VBoxContainer/ScrollContainer" unique_id=2036835277]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
 
 [node name="BottomMargin" type="Control" parent="VBoxContainer" unique_id=1013135203]
 layout_mode = 2
